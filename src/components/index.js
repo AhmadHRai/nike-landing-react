@@ -1,4 +1,4 @@
-// import Button from "./Button";
+import Button from './Button';
 import Nav from './Nav';
 // import ShoeCard from "./ShoeCard";
 // import PopularProductCard from "./PopularProductCard";
@@ -6,7 +6,7 @@ import Nav from './Nav';
 // import ReviewCard from "./ReviewCard";
 
 export {
-  // Button,
+  Button,
   Nav,
   // ShoeCard,
   // PopularProductCard,
