@@ -1,11 +1,4 @@
-import {
-  facebook,
-  instagram,
-  shieldTick,
-  support,
-  truckFast,
-  twitter,
-} from './assets/icons';
+import { facebook, instagram, shieldTick, support, truckFast, twitter } from './assets/icons';
 import {
   bigShoe1,
   bigShoe2,
@@ -54,21 +47,25 @@ export const products = [
     imgURL: shoe4,
     name: 'Nike Air Jordan-01',
     price: '$200.20',
+    rating: 4.7,
   },
   {
     imgURL: shoe5,
     name: 'Nike Air Jordan-10',
     price: '$210.20',
+    rating: 4.5,
   },
   {
     imgURL: shoe6,
     name: 'Nike Air Jordan-100',
     price: '$220.20',
+    rating: 4.9,
   },
   {
     imgURL: shoe7,
     name: 'Nike Air Jordan-001',
     price: '$230.20',
+    rating: 4.4,
   },
 ];
 
@@ -81,8 +78,7 @@ export const services = [
   {
     imgURL: shieldTick,
     label: 'Secure Payment',
-    subtext:
-      'Experience worry-free transactions with our secure payment options.',
+    subtext: 'Experience worry-free transactions with our secure payment options.',
   },
   {
     imgURL: support,
